@@ -93,7 +93,7 @@
         );
         table.append(thead);
 
-        for (const r of data.repos) {
+        for (const r of data.items) {
           const link = el("a", { href: r.html_url }, r.name);
           if (r.is_template) link.title = "template repo";
           const topics = r.topics.length
