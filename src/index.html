@@ -120,7 +120,7 @@
       const container = document.getElementById("mcves");
       try {
         const data = await loadJson("data/sources/org/repos.json");
-        const mcves = data.repos.filter(r => r.topics.includes("uips-mcve"));
+        const mcves = data.items.filter(r => r.topics.includes("uips-mcve"));
         if (!mcves.length) {
           container.textContent = "No MCVE repositories yet.";
           return;
