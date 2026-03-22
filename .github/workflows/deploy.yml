@@ -23,6 +23,35 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - name: Generate llms.txt per set
+        run: |
+          python3 - << 'PYEOF'
+          import os, glob
+
+          LLMS_DIR = "src/llms"
+          if not os.path.isdir(LLMS_DIR):
+              print("No llms/ directory found, skipping.")
+              exit()
+
+          for set_dir in sorted(os.scandir(LLMS_DIR), key=lambda e: e.name):
+              if not set_dir.is_dir():
+                  continue
+              pkg_files = sorted(
+                  f for f in glob.glob(os.path.join(set_dir.path, "*.txt"))
+                  if os.path.basename(f) != "llms.txt"
+              )
+              if not pkg_files:
+                  continue
+              out = os.path.join(set_dir.path, "llms.txt")
+              with open(out, "w", encoding="utf-8") as fout:
+                  for i, path in enumerate(pkg_files):
+                      with open(path, encoding="utf-8") as fin:
+                          fout.write(fin.read())
+                      if i < len(pkg_files) - 1:
+                          fout.write("\n")
+              print(f"  {set_dir.name}/llms.txt: {len(pkg_files)} packages")
+          PYEOF
+
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
