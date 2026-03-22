@@ -159,6 +159,9 @@
       <a href="https://github.com/uips-fixtures/community/issues">community</a>.
     </p>
 
+    <h2>Activity Catalog</h2>
+    <div id="catalog-sets"><span class="loading">Loading…</span></div>
+
     <h2>Repositories</h2>
     <div id="repos"><span class="loading">Loading…</span></div>
     <p id="repos-meta" class="meta"></p>
@@ -254,6 +257,33 @@
       }
     }
 
+    async function renderCatalog() {
+      const container = document.getElementById("catalog-sets");
+      try {
+        const sets = ["watchful-anvil", "reframework-stable"];
+        const table = el("table");
+        table.append(el("tr", {},
+          el("th", {}, "Set"),
+          el("th", {}, "Reference docs"),
+          el("th", {}, "LLM context"),
+        ));
+        for (const set of sets) {
+          const refdocBase = `/refdoc/${set}/`;
+          const llmsBase   = `/llms/${set}/`;
+          const row = el("tr", {},
+            el("td", {}, set),
+            el("td", {}, el("a", { href: refdocBase }, "refdoc")),
+            el("td", {}, el("a", { href: `${llmsBase}llms.txt` }, "llms.txt")),
+          );
+          table.append(row);
+        }
+        container.replaceChildren(table);
+      } catch (err) {
+        container.innerHTML = `<span class="error">Failed to load: ${err.message}</span>`;
+      }
+    }
+
+    renderCatalog();
     renderRepos();
     renderMcves();
   </script>
