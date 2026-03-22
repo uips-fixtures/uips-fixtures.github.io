@@ -5,55 +5,172 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>uips-fixtures</title>
   <style>
-    body {
-      font-family: system-ui, sans-serif;
-      max-width: 760px;
-      margin: 4rem auto;
-      padding: 0 1.5rem;
-      color: #1a1a1a;
-      line-height: 1.6;
+    /* ── Solarized Light palette ──────────────────────────── */
+    :root {
+      --base3:   #fdf6e3;
+      --base2:   #eee8d5;
+      --base1:   #93a1a1;
+      --base0:   #839496;
+      --base00:  #657b83;
+      --base01:  #586e75;
+      --orange:  #cb4b16;
+      --blue:    #268bd2;
+      --cyan:    #2aa198;
+      --green:   #859900;
     }
-    h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
-    .tagline { color: #555; margin-top: 0; margin-bottom: 2rem; }
-    h2 { font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em; color: #888; margin-top: 2.5rem; }
-    a { color: #0969da; }
-    table { border-collapse: collapse; width: 100%; margin-top: 0.75rem; }
-    th, td { text-align: left; padding: 0.4rem 0.75rem; border-bottom: 1px solid #e5e5e5; }
-    th { font-weight: 600; font-size: 0.875rem; color: #555; }
-    code { background: #f3f3f3; padding: 0.1em 0.35em; border-radius: 3px; font-size: 0.9em; }
-    .loading { color: #999; font-style: italic; }
-    .error   { color: #c00; }
-    .meta    { font-size: 0.8rem; color: #aaa; margin-top: 0.25rem; }
+
+    /* ── Reset & base ─────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: var(--base3);
+      color: var(--base00);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* ── Top bar ──────────────────────────────────────────── */
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--orange);
+      color: #fff;
+      padding: 0 1.5rem;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    .topbar-brand {
+      font-weight: 700;
+      font-size: 1.05rem;
+      letter-spacing: 0.02em;
+      color: #fff;
+      text-decoration: none;
+    }
+    .topbar-brand:hover { text-decoration: underline; }
+    .topbar-sub {
+      font-size: 0.8rem;
+      opacity: 0.82;
+    }
+
+    /* ── Content ──────────────────────────────────────────── */
+    .content {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+
+    .tagline {
+      color: var(--base1);
+      font-size: 0.95rem;
+      margin-top: 0.4rem;
+      margin-bottom: 2.5rem;
+      max-width: 640px;
+    }
+
+    h2 {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--base1);
+      margin-top: 2.5rem;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 1px solid var(--base2);
+    }
+
+    p { margin-bottom: 0.75rem; }
+
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── Tables ───────────────────────────────────────────── */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 0.25rem;
+      font-size: 0.9rem;
+    }
+    th, td {
+      text-align: left;
+      padding: 0.45rem 0.75rem;
+      border-bottom: 1px solid var(--base2);
+    }
+    th {
+      font-weight: 600;
+      font-size: 0.8rem;
+      color: var(--base1);
+      background: var(--base2);
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: var(--base2); }
+
+    /* ── Inline code / badges ─────────────────────────────── */
+    code {
+      background: var(--base2);
+      color: var(--base01);
+      padding: 0.1em 0.4em;
+      border-radius: 3px;
+      font-size: 0.85em;
+      font-family: ui-monospace, "SFMono-Regular", monospace;
+    }
+
+    /* ── State indicators ─────────────────────────────────── */
+    .loading { color: var(--base1); font-style: italic; }
+    .error   { color: #dc322f; }
+    .meta    { font-size: 0.78rem; color: var(--base1); margin-top: 0.4rem; }
+
+    /* ── Footer ───────────────────────────────────────────── */
+    footer {
+      margin-top: 3.5rem;
+      color: var(--base1);
+      font-size: 0.8rem;
+      border-top: 1px solid var(--base2);
+      padding-top: 1rem;
+    }
   </style>
 </head>
 <body>
 
-  <h1>uips-fixtures</h1>
-  <p class="tagline">
-    Structured, minimal UiPath workflow examples —
-    MCVEs (Minimum Complete Viable Examples),
-    human- and LLM-readable, one pattern per repo, crowd-sourceable —
-    with proven static analysis coverage and a controllable runtime test fixture.
-  </p>
+  <header class="topbar">
+    <a class="topbar-brand" href="https://github.com/uips-fixtures">uips-fixtures</a>
+    <span class="topbar-sub">UiPath workflow fixture library</span>
+  </header>
 
-  <h2>Contribute</h2>
-  <p>
-    Fork <a href="https://github.com/uips-fixtures/_template-mcve"><code>_template-mcve</code></a>
-    to start a new MCVE.
-    Request a new rule repo via an issue in
-    <a href="https://github.com/uips-fixtures/community/issues">community</a>.
-  </p>
+  <div class="content">
 
-  <h2>Repositories</h2>
-  <div id="repos"><span class="loading">Loading…</span></div>
-  <p id="repos-meta" class="meta"></p>
+    <p class="tagline">
+      Structured, minimal UiPath workflow examples —
+      MCVEs (Minimum Complete Viable Examples),
+      human- and LLM-readable, one pattern per repo, crowd-sourceable —
+      with proven static analysis coverage and a controllable runtime test fixture.
+    </p>
 
-  <h2>MCVEs</h2>
-  <div id="mcves"><span class="loading">Loading…</span></div>
+    <h2>Contribute</h2>
+    <p>
+      Fork <a href="https://github.com/uips-fixtures/_template-mcve"><code>_template-mcve</code></a>
+      to start a new MCVE.
+      Request a new rule repo via an issue in
+      <a href="https://github.com/uips-fixtures/community/issues">community</a>.
+    </p>
 
-  <footer style="margin-top:4rem;color:#aaa;font-size:0.8rem;">
-    <a href="https://github.com/uips-fixtures">github.com/uips-fixtures</a>
-  </footer>
+    <h2>Repositories</h2>
+    <div id="repos"><span class="loading">Loading…</span></div>
+    <p id="repos-meta" class="meta"></p>
+
+    <h2>MCVEs</h2>
+    <div id="mcves"><span class="loading">Loading…</span></div>
+
+    <footer>
+      <a href="https://github.com/uips-fixtures">github.com/uips-fixtures</a>
+    </footer>
+
+  </div>
 
   <script>
     const CATALOG_RAW = "https://raw.githubusercontent.com/uips-fixtures/catalog/main";
@@ -82,7 +199,8 @@
       const container = document.getElementById("repos");
       const meta      = document.getElementById("repos-meta");
       try {
-        const data = await loadJson("data/sources/org/repos.json");
+        const data  = await loadJson("data/sources/org/repos.json");
+        const repos = data.repos ?? data.items ?? [];
 
         const table = el("table");
         const thead = el("tr",{},
@@ -93,15 +211,15 @@
         );
         table.append(thead);
 
-        for (const r of data.items) {
+        for (const r of repos) {
           const link = el("a", { href: r.html_url }, r.name);
           if (r.is_template) link.title = "template repo";
-          const topics = r.topics.length
+          const topics = (r.topics ?? []).length
             ? r.topics.map(t => el("code",{},t)).reduce((a,b) => { a.append(" ", b); return a; }, document.createDocumentFragment())
             : "—";
           const row = el("tr",{},
             el("td",{},link),
-            el("td",{},String(r.stargazers_count)),
+            el("td",{},String(r.stargazers_count ?? "—")),
             el("td",{},ageLabel(r.last_commit_age_days)),
             el("td",{},topics),
           );
@@ -109,7 +227,10 @@
         }
 
         container.replaceChildren(table);
-        meta.textContent = `Collected ${data.collectedAtUtc.replace("T"," ").replace("Z"," UTC")} · ${data.repoCount} public repos`;
+        const ts = data.collectedAtUtc
+          ? data.collectedAtUtc.replace("T", " ").replace("Z", " UTC")
+          : "unknown time";
+        meta.textContent = `Collected ${ts} · ${data.repoCount ?? repos.length} public repos`;
 
       } catch (err) {
         container.innerHTML = `<span class="error">Failed to load: ${err.message}</span>`;
@@ -119,8 +240,9 @@
     async function renderMcves() {
       const container = document.getElementById("mcves");
       try {
-        const data = await loadJson("data/sources/org/repos.json");
-        const mcves = data.items.filter(r => r.topics.includes("uips-mcve"));
+        const data  = await loadJson("data/sources/org/repos.json");
+        const repos = data.repos ?? data.items ?? [];
+        const mcves = repos.filter(r => (r.topics ?? []).includes("uips-mcve"));
         if (!mcves.length) {
           container.textContent = "No MCVE repositories yet.";
           return;
