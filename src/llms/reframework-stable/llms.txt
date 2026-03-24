@@ -1,0 +1,11 @@
+# reframework-stable — Workflow Activity Reference
+
+> Curated set of per-package LLM reference files.
+> Each file lists all activities, arguments, and properties for one package.
+
+## Packages
+
+- [UiPath.Excel.Activities](https://uips-fixtures.github.io/llms/reframework-stable/UiPath.Excel.Activities.txt): 3.4.1, 16 activities (UiPath)
+- [UiPath.System.Activities](https://uips-fixtures.github.io/llms/reframework-stable/UiPath.System.Activities.txt): 23.4.5, 77 activities (UiPath)
+- [UiPath.Testing.Activities](https://uips-fixtures.github.io/llms/reframework-stable/UiPath.Testing.Activities.txt): 25.10.1, 40 activities (UiPath)
+- [UiPath.UIAutomation.Activities](https://uips-fixtures.github.io/llms/reframework-stable/UiPath.UIAutomation.Activities.txt): 23.10.20, 75 activities (UiPath)
