@@ -2,7 +2,7 @@
 
 > generator: uips-fixtures catalog v0.1
 > generated: 2026-04-06T08:08:08Z
-> set: reframework-stable
+> set: molten-dirigible
 > activities: 93
 > authors: UiPath
 **ID format**: `{fullName}@{packageId}/{packageVersion}`

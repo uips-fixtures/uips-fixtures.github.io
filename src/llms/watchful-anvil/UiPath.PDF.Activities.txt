@@ -1,7 +1,7 @@
 # UiPath.PDF.Activities 3.25.2
 
 > generator: uips-fixtures catalog v0.1
-> generated: 2026-03-22T09:37:08Z
+> generated: 2026-04-06T08:08:08Z
 > set: watchful-anvil
 > activities: 10
 > authors: UiPath
@@ -14,10 +14,10 @@
 **ID**: `UiPath.XPS.Activities.ReadXPSText@UiPath.PDF.Activities/3.25.2`
 **Type**: `UiPath.XPS.Activities.ReadXPSText`
 **Arguments**:
-- `FileName` (In [required]): `InArgument<String>`
-- `Password` (In): `InArgument<String>`
-- `Range` (In): `InArgument<String>`
-- `Text` (Out): `OutArgument<String>`
+- `FileName` (in [required]): `InArgument<String>`
+- `Password` (in): `InArgument<String>`
+- `Range` (in): `InArgument<String>`
+- `Text` (out): `OutArgument<String>`
 **Other members**:
 - `Filter` [property]: `String`
 - `OpenTitle` [property]: `String`
@@ -26,11 +26,11 @@
 **ID**: `UiPath.XPS.Activities.ReadXPSWithOCR@UiPath.PDF.Activities/3.25.2`
 **Type**: `UiPath.XPS.Activities.ReadXPSWithOCR`
 **Arguments**:
-- `FileName` (In [required]): `InArgument<String>`
-- `Range` (In): `InArgument<String>`
-- `DegreeOfParallelism` (In [required]): `InArgument<Int32>`
-- `Text` (Out): `OutArgument<String>`
-- `Password` (In): `InArgument<String>`
+- `FileName` (in [required]): `InArgument<String>`
+- `Range` (in): `InArgument<String>`
+- `DegreeOfParallelism` (in [required]): `InArgument<Int32>`
+- `Text` (out): `OutArgument<String>`
+- `Password` (in): `InArgument<String>`
 **Other members**:
 - `Filter` [property]: `String`
 - `OpenTitle` [property]: `String`
@@ -39,11 +39,11 @@
 **ID**: `UiPath.PDF.Activities.ReadPDFText@UiPath.PDF.Activities/3.25.2`
 **Type**: `UiPath.PDF.Activities.ReadPDFText`
 **Arguments**:
-- `PreserveFormatting` (In): `InArgument<Boolean>`
-- `FileName` (In [required]): `InArgument<String>`
-- `Password` (In): `InArgument<String>`
-- `Range` (In): `InArgument<String>`
-- `Text` (Out): `OutArgument<String>`
+- `PreserveFormatting` (in): `InArgument<Boolean>`
+- `FileName` (in [required]): `InArgument<String>`
+- `Password` (in): `InArgument<String>`
+- `Range` (in): `InArgument<String>`
+- `Text` (out): `OutArgument<String>`
 **Other members**:
 - `Filter` [property]: `String`
 - `OpenTitle` [property]: `String`
@@ -52,11 +52,11 @@
 **ID**: `UiPath.PDF.Activities.ReadPDFWithOCR@UiPath.PDF.Activities/3.25.2`
 **Type**: `UiPath.PDF.Activities.ReadPDFWithOCR`
 **Arguments**:
-- `FileName` (In [required]): `InArgument<String>`
-- `Range` (In): `InArgument<String>`
-- `DegreeOfParallelism` (In [required]): `InArgument<Int32>`
-- `Text` (Out): `OutArgument<String>`
-- `Password` (In): `InArgument<String>`
+- `FileName` (in [required]): `InArgument<String>`
+- `Range` (in): `InArgument<String>`
+- `DegreeOfParallelism` (in [required]): `InArgument<Int32>`
+- `Text` (out): `OutArgument<String>`
+- `Password` (in): `InArgument<String>`
 **Other members**:
 - `ImageDpi` [property]: `UiPath.PDF.ImageDpi`
 - `Filter` [property]: `String`
@@ -66,10 +66,10 @@
 **ID**: `UiPath.PDF.Activities.PDF.ExportPDFPageAsImage@UiPath.PDF.Activities/3.25.2`
 **Type**: `UiPath.PDF.Activities.PDF.ExportPDFPageAsImage`
 **Arguments**:
-- `FileName` (In [required]): `InArgument<String>`
-- `Password` (In): `InArgument<String>`
-- `PageNumber` (In [required]): `InArgument<Int32>`
-- `OutputFileName` (In [required]): `InArgument<String>`
+- `FileName` (in [required]): `InArgument<String>`
+- `Password` (in): `InArgument<String>`
+- `PageNumber` (in [required]): `InArgument<Int32>`
+- `OutputFileName` (in [required]): `InArgument<String>`
 **Other members**:
 - `ImageDpi` [property]: `UiPath.PDF.ImageDpi`
 ### Extract Images From PDF
@@ -77,9 +77,9 @@
 **ID**: `UiPath.PDF.Activities.PDF.ExtractImagesFromPDF@UiPath.PDF.Activities/3.25.2`
 **Type**: `UiPath.PDF.Activities.PDF.ExtractImagesFromPDF`
 **Arguments**:
-- `FileName` (In [required]): `InArgument<String>`
-- `Password` (In): `InArgument<String>`
-- `OutputFolderName` (In [required]): `InArgument<String>`
+- `FileName` (in [required]): `InArgument<String>`
+- `Password` (in): `InArgument<String>`
+- `OutputFolderName` (in [required]): `InArgument<String>`
 **Other members**:
 - `ImageExtension` [property]: `UiPath.PDF.ImageExtension`
 ### Extract PDF Page Range
@@ -87,34 +87,34 @@
 **ID**: `UiPath.PDF.Activities.PDF.ExtractPDFPageRange@UiPath.PDF.Activities/3.25.2`
 **Type**: `UiPath.PDF.Activities.PDF.ExtractPDFPageRange`
 **Arguments**:
-- `FileName` (In [required]): `InArgument<String>`
-- `Password` (In): `InArgument<String>`
-- `Range` (In [required]): `InArgument<String>`
-- `OutputFileName` (In [required]): `InArgument<String>`
+- `FileName` (in [required]): `InArgument<String>`
+- `Password` (in): `InArgument<String>`
+- `Range` (in [required]): `InArgument<String>`
+- `OutputFileName` (in [required]): `InArgument<String>`
 ### Get PDF Page Count
 
 **ID**: `UiPath.PDF.Activities.PDF.GetPDFPageCount@UiPath.PDF.Activities/3.25.2`
 **Type**: `UiPath.PDF.Activities.PDF.GetPDFPageCount`
 **Arguments**:
-- `FileName` (In [required]): `InArgument<String>`
-- `Password` (In): `InArgument<String>`
-- `PageCount` (Out): `OutArgument<Int32>`
+- `FileName` (in [required]): `InArgument<String>`
+- `Password` (in): `InArgument<String>`
+- `PageCount` (out): `OutArgument<Int32>`
 ### Join PDF Files
 
 **ID**: `UiPath.PDF.Activities.PDF.JoinPDF@UiPath.PDF.Activities/3.25.2`
 **Type**: `UiPath.PDF.Activities.PDF.JoinPDF`
 **Arguments**:
-- `FileList` (In [required]): `InArgument<String[]>`
-- `OutputFileName` (In [required]): `InArgument<String>`
+- `FileList` (in [required]): `InArgument<String[]>`
+- `OutputFileName` (in [required]): `InArgument<String>`
 ### Manage PDF Password
 
 **ID**: `UiPath.PDF.Activities.PDF.ManagePDFPassword@UiPath.PDF.Activities/3.25.2`
 **Type**: `UiPath.PDF.Activities.PDF.ManagePDFPassword`
 **Arguments**:
-- `FileName` (In [required]): `InArgument<String>`
-- `OldUserPassword` (In): `InArgument<String>`
-- `NewUserPassword` (In): `InArgument<String>`
-- `OldOwnerPassword` (In): `InArgument<String>`
-- `NewOwnerPassword` (In): `InArgument<String>`
-- `OutputFileName` (In [required]): `InArgument<String>`
+- `FileName` (in [required]): `InArgument<String>`
+- `OldUserPassword` (in): `InArgument<String>`
+- `NewUserPassword` (in): `InArgument<String>`
+- `OldOwnerPassword` (in): `InArgument<String>`
+- `NewOwnerPassword` (in): `InArgument<String>`
+- `OutputFileName` (in [required]): `InArgument<String>`
 ---
