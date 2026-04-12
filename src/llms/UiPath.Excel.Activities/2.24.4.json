@@ -5,7 +5,7 @@
   },
   "source": {
     "kind": "nuget-package",
-    "id": "uipath.excel.activities",
+    "id": "UiPath.Excel.Activities",
     "version": "2.24.4",
     "feedUrl": null,
     "authors": "UiPath",
@@ -15,10 +15,10 @@
     "tags": "UiPathActivities Activities UiPathStudioX",
     "packageTypes": []
   },
-  "generatedAt": "2026-04-12T09:06:21Z",
+  "generatedAt": "2026-04-12T09:17:06Z",
   "activities": [
     {
-      "id": "UiPath.CSV.Activities.AppendCsvFile@uipath.excel.activities/2.24.4",
+      "id": "UiPath.CSV.Activities.AppendCsvFile@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.CSV.Activities.AppendCsvFile",
       "displayName": "Append to CSV",
       "description": "Copies an Excel range, table, or sheet, or table data saved for later, and pastes it after existing data in a specified CSV file.",
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": "UiPath.CSV.Activities.ReadCsvFile@uipath.excel.activities/2.24.4",
+      "id": "UiPath.CSV.Activities.ReadCsvFile@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.CSV.Activities.ReadCsvFile",
       "displayName": "Read CSV",
       "description": "Copies all entries from a specified CSV file to an Excel range, table, or sheet, or saves the data for later use in the automation.",
@@ -249,7 +249,7 @@
       ]
     },
     {
-      "id": "UiPath.CSV.Activities.WriteCsvFile@uipath.excel.activities/2.24.4",
+      "id": "UiPath.CSV.Activities.WriteCsvFile@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.CSV.Activities.WriteCsvFile",
       "displayName": "Write CSV",
       "description": "Copies an Excel range, table, or sheet, or table data saved for later, and pastes it in a specified CSV file replacing any existing data in the file.",
@@ -373,7 +373,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.AppendRange@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.AppendRange@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.AppendRange",
       "displayName": "Append Range Workbook",
       "description": "Appends the data from a DataTable to a spreadsheet. If the sheet does not exist, a new one is created with the SheetName value. Changes are immediately saved",
@@ -491,7 +491,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.GetTableRange@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.GetTableRange@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.GetTableRange",
       "displayName": "Get Table Range Workbook",
       "description": "Extracts the range of an Excel table from a specified spreadsheet",
@@ -643,7 +643,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.ReadCell@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.ReadCell@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.ReadCell",
       "displayName": "Read Cell Workbook",
       "description": "Reads the value of a cell from a spreadsheet as a string",
@@ -795,7 +795,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.ReadCellFormula@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.ReadCellFormula@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.ReadCellFormula",
       "displayName": "Read Cell Formula Workbook",
       "description": "Reads the formula of a cell from a spreadsheet as a string",
@@ -930,7 +930,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.ReadColumn@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.ReadColumn@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.ReadColumn",
       "displayName": "Read Column Workbook",
       "description": "Reads the values from a column beginning from the cell specified in the StartingCell field, and stores them in an IEnumerable <object>variable.",
@@ -1082,7 +1082,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.ReadRange@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.ReadRange@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.ReadRange",
       "displayName": "Read Range Workbook",
       "description": "Reads the value of a range in Range Excel Format from a spreadsheet as a DataTable. If Range isn&apos;t specified, the whole spreadsheet is read. If range is specified as a cell, the whole spreadsheet starting from that cell is read",
@@ -1251,7 +1251,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.ReadRow@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.ReadRow@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.ReadRow",
       "displayName": "Read Row Workbook",
       "description": "Reads the values of an Excel row beginning from the cell specified in the StartingCell field, and stores it in an IEnumerable<object> variable.",
@@ -1403,7 +1403,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.WriteCell@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.WriteCell@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.WriteCell",
       "displayName": "Write Cell Workbook",
       "description": "Writes the Text value into a cell from a spreadsheet. If the sheet does not exist, a new one is created with the SheetName value. If a value exists, it is overwritten. Changes are immediately saved",
@@ -1538,7 +1538,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.WriteRange@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.WriteRange@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.WriteRange",
       "displayName": "Write Range Workbook",
       "description": "Writes the data from a DataTable in a spreadsheet starting from StartingCell. If StartingCell isn&apos;t specified, the writing begins at A1 cell. If the sheet does not exist, a new one is created with the SheetName value. All cells within the DataTable range are overwritten. Changes are immediately saved",
@@ -1690,7 +1690,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.GetCellColorX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.GetCellColorX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.GetCellColorX",
       "displayName": "Get Cell Color",
       "description": "Extracts the background color of a cell and saves it as a Color variable.",
@@ -1740,7 +1740,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.AppendRangeX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.AppendRangeX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.AppendRangeX",
       "displayName": "Append Range",
       "description": "Copies the data in a table, range, or sheet and pastes it after existing data in another specified table, range, or sheet.",
@@ -1750,7 +1750,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -1880,7 +1880,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.AutoFillX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.AutoFillX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.AutoFillX",
       "displayName": "Auto Fill",
       "description": "Fills cells with data based on data in other cells using the AutoFill feature in Excel.",
@@ -1890,7 +1890,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -1913,7 +1913,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.AutoFitX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.AutoFitX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.AutoFitX",
       "displayName": "Autofit Range",
       "description": "Fits data in cells.",
@@ -1923,7 +1923,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -1980,7 +1980,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.ChangePivotTableDataSourceX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.ChangePivotTableDataSourceX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.ChangePivotTableDataSourceX",
       "displayName": "Change Pivot Data Source",
       "description": "Change the Source range for a Pivot Table.",
@@ -1990,7 +1990,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -2030,7 +2030,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.ClearRangeX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.ClearRangeX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.ClearRangeX",
       "displayName": "Clear Sheet/Range/Table",
       "description": "Clears the data from a spreadsheet sheet, range, or table.",
@@ -2040,7 +2040,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -2080,7 +2080,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.CreatePivotTableX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.CreatePivotTableX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.CreatePivotTableX",
       "displayName": "Create Pivot Table",
       "description": "Creates a pivot table from a specified range or table to help you calculate, summarize, and analyze data.",
@@ -2090,7 +2090,7 @@
       "genericParameterNames": [],
       "isObsolete": true,
       "obsoleteMessage": "Deprecated, use CreatePivotTableXv2 instead",
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -2205,7 +2205,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.ExcelForEachRow@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.ExcelForEachRow@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.ExcelForEachRow",
       "displayName": "For Each Excel Row",
       "description": "Repeats the contained activities once for each row in the specified sheet, range, or table.",
@@ -2215,7 +2215,7 @@
       "genericParameterNames": [],
       "isObsolete": true,
       "obsoleteMessage": "Deprecated, use ExcelForEachRowX instead",
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -2311,7 +2311,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.CopyChartToClipboardX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.CopyChartToClipboardX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.CopyChartToClipboardX",
       "displayName": "Get Chart",
       "description": "Saves an Excel chart to an image file or to the clipboard for use in other activities.",
@@ -2321,7 +2321,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -2398,7 +2398,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.CopyPasteRangeX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.CopyPasteRangeX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.CopyPasteRangeX",
       "displayName": "Copy/Paste Range",
       "description": "Copies a range or sheet and optionally pastes it to another location in the current workbook or a different one.",
@@ -2408,7 +2408,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -2521,7 +2521,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.CreatePivotTableXv2@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.CreatePivotTableXv2@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.CreatePivotTableXv2",
       "displayName": "Create Pivot Table",
       "description": "Creates a pivot table from a specified range or table to help you calculate, summarize, and analyze data.",
@@ -2531,7 +2531,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -2646,7 +2646,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.CreateTableX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.CreateTableX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.CreateTableX",
       "displayName": "Format as Table",
       "description": "Formats a range of cells as a table with a specified name.",
@@ -2656,7 +2656,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -2747,7 +2747,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.DeleteColumnX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.DeleteColumnX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.DeleteColumnX",
       "displayName": "Delete Column",
       "description": "Deletes a specified column from a sheet, table or range.",
@@ -2757,7 +2757,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -2814,7 +2814,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.DeleteRowsX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.DeleteRowsX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.DeleteRowsX",
       "displayName": "Delete Rows",
       "description": "Deletes the specified rows from a sheet, table, or range.",
@@ -2824,7 +2824,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -2903,7 +2903,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.DeleteSheetX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.DeleteSheetX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.DeleteSheetX",
       "displayName": "Delete Sheet",
       "description": "Deletes a specified sheet from an Excel file.",
@@ -2913,7 +2913,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -2936,7 +2936,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.DuplicateSheetX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.DuplicateSheetX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.DuplicateSheetX",
       "displayName": "Duplicate Sheet",
       "description": "Creates a copy of the specified sheet in an Excel file.",
@@ -2946,7 +2946,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -2986,7 +2986,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.ExcelApplicationCard@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.ExcelApplicationCard@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.ExcelApplicationCard",
       "displayName": "Use Excel File",
       "description": "Open or create an Excel file to use in your automation.",
@@ -2996,7 +2996,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -3218,7 +3218,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.ExcelForEachRowX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.ExcelForEachRowX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.ExcelForEachRowX",
       "displayName": "For Each Excel Row",
       "description": "Repeats the contained activities once for each row in the specified sheet, range, or table.",
@@ -3228,7 +3228,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -3324,7 +3324,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.ExcelProcessScopeX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.ExcelProcessScopeX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.ExcelProcessScopeX",
       "displayName": "Excel Process Scope",
       "description": "Opens or reuses an Excel process. To be used in combination with the \"Use Excel\" activity to open Excel documents.",
@@ -3334,7 +3334,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -3513,7 +3513,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.ExecuteMacroX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.ExecuteMacroX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.ExecuteMacroX",
       "displayName": "Run Spreadsheet Macro",
       "description": "Executes a specified macro within a macro-enabled workbook.",
@@ -3523,7 +3523,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -3597,7 +3597,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.ExportExcelToCsvX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.ExportExcelToCsvX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.ExportExcelToCsvX",
       "displayName": "Export to CSV",
       "description": "Exports the specified range, table, pivotTable or sheet to a CSV file.",
@@ -3607,7 +3607,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -3647,7 +3647,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.FillRangeX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.FillRangeX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.FillRangeX",
       "displayName": "Fill Range",
       "description": "Enters a formula or value in all the cells in a range.",
@@ -3657,7 +3657,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -3697,7 +3697,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.FilterPivotTableX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.FilterPivotTableX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.FilterPivotTableX",
       "displayName": "Filter Pivot Table",
       "description": "Creates a filter in a pivot table based on the values in a single column. Can also be used to clear existing filters.",
@@ -3707,7 +3707,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -3764,7 +3764,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.FilterX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.FilterX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.FilterX",
       "displayName": "Filter",
       "description": "Creates a filter in a range, table, or sheet based on the values in a single column. Can also be used to clear existing filters.",
@@ -3774,7 +3774,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -3831,7 +3831,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.FindFirstLastDataRowX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.FindFirstLastDataRowX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.FindFirstLastDataRowX",
       "displayName": "Find First/Last Data Row",
       "description": "Finds the first and the last rows containing data in a given sheet, range or table.",
@@ -3841,7 +3841,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -4020,7 +4020,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.FindReplaceValueX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.FindReplaceValueX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.FindReplaceValueX",
       "displayName": "Find/Replace Value",
       "description": "Searches in a specified range for a certain value. Depending on the Operation chosen, it either returns the location of the cell or it replaces the value(s) with another given value.",
@@ -4030,7 +4030,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -4179,7 +4179,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.ForEachSheetX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.ForEachSheetX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.ForEachSheetX",
       "displayName": "For Each Excel Sheet",
       "description": "Repeats actions for each sheet in an Excel workbook.",
@@ -4189,7 +4189,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -4229,7 +4229,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.FormatRangeX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.FormatRangeX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.FormatRangeX",
       "displayName": "Format Cells",
       "description": "Sets the format for all the cells in a specified range.",
@@ -4239,7 +4239,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -4262,7 +4262,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.InsertColumnX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.InsertColumnX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.InsertColumnX",
       "displayName": "Insert Column",
       "description": "Inserts a column in a sheet, table, or range at the specified location.",
@@ -4272,7 +4272,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -4366,7 +4366,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.InsertExcelChartX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.InsertExcelChartX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.InsertExcelChartX",
       "displayName": "Insert Chart",
       "description": "Create a chart in an Excel file.",
@@ -4376,7 +4376,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -4566,7 +4566,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.InsertRowsX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.InsertRowsX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.InsertRowsX",
       "displayName": "Insert Rows",
       "description": "Inserts one or more rows in a table, range, or sheet at the specified location.",
@@ -4576,7 +4576,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -4671,7 +4671,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.InsertSheetX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.InsertSheetX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.InsertSheetX",
       "displayName": "Insert Sheet",
       "description": "Inserts a sheet in an Excel file.",
@@ -4681,7 +4681,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -4738,7 +4738,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.InvokeVBAX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.InvokeVBAX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.InvokeVBAX",
       "displayName": "Invoke VBA",
       "description": "Invokes a macro from an external file containing VBA code and runs it against an Excel file.",
@@ -4748,7 +4748,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -4839,7 +4839,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.LookupX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.LookupX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.LookupX",
       "displayName": "Lookup Range",
       "description": "Finds data in a range or sheet using Excel's LOOKUP function.",
@@ -4849,7 +4849,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -4923,7 +4923,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.MatchFunctionX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.MatchFunctionX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.MatchFunctionX",
       "displayName": "Match function",
       "description": "Searches for a specified item in a range of cells, and then returns the relative position of that item in the range.",
@@ -4933,7 +4933,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -5011,7 +5011,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.ProtectSheetX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.ProtectSheetX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.ProtectSheetX",
       "displayName": "Protect Sheet",
       "description": "Protects a sheet in an Excel workbook.",
@@ -5021,7 +5021,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -5110,7 +5110,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.ReadCellFormulaX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.ReadCellFormulaX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.ReadCellFormulaX",
       "displayName": "Read Cell Formula",
       "description": "Reads the formula from a spreadsheet cell.",
@@ -5120,7 +5120,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -5160,7 +5160,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.ReadCellValueX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.ReadCellValueX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.ReadCellValueX",
       "displayName": "Read Cell Value",
       "description": "Reads the value from a spreadsheet cell.",
@@ -5170,7 +5170,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -5227,7 +5227,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.ReadRangeX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.ReadRangeX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.ReadRangeX",
       "displayName": "Read Range",
       "description": "Reads the value of an Excel range as a DataTable.",
@@ -5237,7 +5237,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -5332,7 +5332,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.RefreshDataConnectionsX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.RefreshDataConnectionsX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.RefreshDataConnectionsX",
       "displayName": "Refresh Excel Data Connections",
       "description": "Get the latest data by refreshing all sources in the workbook.",
@@ -5342,7 +5342,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -5365,7 +5365,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.RefreshPivotTableX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.RefreshPivotTableX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.RefreshPivotTableX",
       "displayName": "Refresh Pivot Table",
       "description": "Updates the data for a pivot table.",
@@ -5375,7 +5375,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -5419,7 +5419,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.RemoveDuplicatesX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.RemoveDuplicatesX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.RemoveDuplicatesX",
       "displayName": "Remove Duplicates",
       "description": "Delete duplicate rows",
@@ -5429,7 +5429,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -5489,7 +5489,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.RenameSheetX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.RenameSheetX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.RenameSheetX",
       "displayName": "Rename Sheet",
       "description": "Renames a sheet in an Excel file.",
@@ -5499,7 +5499,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -5539,7 +5539,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.SaveAsPdfX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.SaveAsPdfX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.SaveAsPdfX",
       "displayName": "Save Excel File As PDF",
       "description": "Saves an Excel file as a PDF file.",
@@ -5549,7 +5549,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -5660,7 +5660,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.SaveExcelFileAsX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.SaveExcelFileAsX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.SaveExcelFileAsX",
       "displayName": "Save Excel File As",
       "description": "Save an Excel file as a different file.",
@@ -5670,7 +5670,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -5749,7 +5749,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.SaveExcelFileX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.SaveExcelFileX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.SaveExcelFileX",
       "displayName": "Save Excel File",
       "description": "Saves any pending changes in the selected Excel file.",
@@ -5759,7 +5759,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -5782,7 +5782,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.SequenceX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.SequenceX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.SequenceX",
       "displayName": "Single Excel Process Scope",
       "description": "Use this activity as root of your Attended Workflow to enforce that at most one Excel process exists at start of execution.  This behavior ensures all the Excel documents are open in the same Excel process and will make your workflow more stable and faster. This activity is used as root for StudioX workflows.",
@@ -5792,7 +5792,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -5815,7 +5815,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.SortX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.SortX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.SortX",
       "displayName": "Sort Range",
       "description": "Sorts the data in a specified sheet, table, or range by one or more columns.",
@@ -5825,7 +5825,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -5865,7 +5865,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.TextToColumnsX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.TextToColumnsX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.TextToColumnsX",
       "displayName": "Text to Columns",
       "description": "Splits the text from a cell, range, or table into different columns.",
@@ -5875,7 +5875,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -6109,7 +6109,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.UnprotectSheetX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.UnprotectSheetX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.UnprotectSheetX",
       "displayName": "Unprotect Sheet",
       "description": "Unprotects a sheet in an Excel workbook.",
@@ -6119,7 +6119,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -6176,7 +6176,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.UpdateChartX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.UpdateChartX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.UpdateChartX",
       "displayName": "Update Chart",
       "description": "Update properties of an existing Excel chart.",
@@ -6186,7 +6186,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -6226,7 +6226,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.VLookupX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.VLookupX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.VLookupX",
       "displayName": "VLookup",
       "description": "Finds data in a range or sheet using Excel's VLOOKUP function.",
@@ -6236,7 +6236,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -6327,7 +6327,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.WriteCellX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.WriteCellX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.WriteCellX",
       "displayName": "Write Cell",
       "description": "Enters a text or a formula in a cell.",
@@ -6337,7 +6337,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -6394,7 +6394,7 @@
       ]
     },
     {
-      "id": "UiPath.Excel.Activities.Business.WriteRangeX@uipath.excel.activities/2.24.4",
+      "id": "UiPath.Excel.Activities.Business.WriteRangeX@UiPath.Excel.Activities/2.24.4",
       "fullName": "UiPath.Excel.Activities.Business.WriteRangeX",
       "displayName": "Write DataTable to Excel",
       "description": "Write Range is intended for writing data from external Data Table sources into Excel.",
@@ -6404,7 +6404,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=uipath.excel.activities",
+      "xmlNamespace": "clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities",
       "xmlPrefix": null,
       "members": [
         {
