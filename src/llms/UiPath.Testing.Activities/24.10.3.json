@@ -5,7 +5,7 @@
   },
   "source": {
     "kind": "nuget-package",
-    "id": "UiPath.Testing.Activities",
+    "id": "uipath.testing.activities",
     "version": "24.10.3",
     "feedUrl": null,
     "authors": "UiPath",
@@ -15,10 +15,10 @@
     "tags": "UiPathActivities",
     "packageTypes": []
   },
-  "generatedAt": "2026-04-11T13:09:15Z",
+  "generatedAt": "2026-04-12T09:06:21Z",
   "activities": [
     {
-      "id": "UiPath.Testing.Activities.AttachDocument@UiPath.Testing.Activities/24.10.3",
+      "id": "UiPath.Testing.Activities.AttachDocument@uipath.testing.activities/24.10.3",
       "fullName": "UiPath.Testing.Activities.AttachDocument",
       "displayName": "Attach Document",
       "description": "Attach Document to the current Test Case in Orchestrator",
@@ -28,7 +28,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Testing.Activities;assembly=uipath.testing.activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "id": "UiPath.Testing.Activities.CreateComparisonRule@UiPath.Testing.Activities/24.10.3",
+      "id": "UiPath.Testing.Activities.CreateComparisonRule@uipath.testing.activities/24.10.3",
       "fullName": "UiPath.Testing.Activities.CreateComparisonRule",
       "displayName": "Create Comparison Rule",
       "description": "Activity that can create a flexible comparison rules designed to match and exclude specific parts of the text during comparison. The rule can use various matching techniques, such as regular expressions (regex) or wildcards. These rules allow the identification of patterns (e.g., dates, IDs, or dynamic content) that should be ignored, improving the accuracy and relevance of the comparison.",
@@ -95,7 +95,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Testing.Activities;assembly=uipath.testing.activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -146,7 +146,10 @@
           "isObsolete": false,
           "obsoleteMessage": null,
           "delegateArgumentName": null,
-          "enumValues": [],
+          "enumValues": [
+            "RegexRule",
+            "WildcardRule"
+          ],
           "typeMembers": []
         },
         {
@@ -203,7 +206,7 @@
       ]
     },
     {
-      "id": "UiPath.Testing.Activities.BulkAddTestDataQueue@UiPath.Testing.Activities/24.10.3",
+      "id": "UiPath.Testing.Activities.BulkAddTestDataQueue@uipath.testing.activities/24.10.3",
       "fullName": "UiPath.Testing.Activities.BulkAddTestDataQueue",
       "displayName": "Bulk Add Test Data Queue Items",
       "description": "Add test data items to a queue in bulk",
@@ -213,7 +216,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Testing.Activities;assembly=uipath.testing.activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -304,7 +307,7 @@
       ]
     },
     {
-      "id": "UiPath.Testing.Activities.DeleteTestDataQueueItems@UiPath.Testing.Activities/24.10.3",
+      "id": "UiPath.Testing.Activities.DeleteTestDataQueueItems@uipath.testing.activities/24.10.3",
       "fullName": "UiPath.Testing.Activities.DeleteTestDataQueueItems",
       "displayName": "Delete Test Data Queue Items",
       "description": "Delete the provided test data queue items",
@@ -314,7 +317,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Testing.Activities;assembly=uipath.testing.activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -388,7 +391,7 @@
       ]
     },
     {
-      "id": "UiPath.Testing.Activities.GetTestDataQueueItem@UiPath.Testing.Activities/24.10.3",
+      "id": "UiPath.Testing.Activities.GetTestDataQueueItem@uipath.testing.activities/24.10.3",
       "fullName": "UiPath.Testing.Activities.GetTestDataQueueItem",
       "displayName": "Get Test Data Queue Item",
       "description": "Get next test data item from a queue",
@@ -398,7 +401,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Testing.Activities;assembly=uipath.testing.activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -506,7 +509,7 @@
       ]
     },
     {
-      "id": "UiPath.Testing.Activities.GetTestDataQueueItems@UiPath.Testing.Activities/24.10.3",
+      "id": "UiPath.Testing.Activities.GetTestDataQueueItems@uipath.testing.activities/24.10.3",
       "fullName": "UiPath.Testing.Activities.GetTestDataQueueItems",
       "displayName": "Get Test Data Queue Items",
       "description": "Gets all the items from the specified queue",
@@ -516,7 +519,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Testing.Activities;assembly=uipath.testing.activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -567,7 +570,11 @@
           "isObsolete": false,
           "obsoleteMessage": null,
           "delegateArgumentName": null,
-          "enumValues": [],
+          "enumValues": [
+            "All",
+            "OnlyConsumed",
+            "OnlyNotConsumed"
+          ],
           "typeMembers": []
         },
         {
@@ -675,7 +682,7 @@
       ]
     },
     {
-      "id": "UiPath.Testing.Activities.NewAddTestDataQueueItem@UiPath.Testing.Activities/24.10.3",
+      "id": "UiPath.Testing.Activities.NewAddTestDataQueueItem@uipath.testing.activities/24.10.3",
       "fullName": "UiPath.Testing.Activities.NewAddTestDataQueueItem",
       "displayName": "Add Test Data Queue Item",
       "description": "Add test data item to a queue",
@@ -685,7 +692,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Testing.Activities;assembly=uipath.testing.activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -776,7 +783,7 @@
       ]
     },
     {
-      "id": "UiPath.Testing.Activities.VerifyDocumentsEquivalence@UiPath.Testing.Activities/24.10.3",
+      "id": "UiPath.Testing.Activities.VerifyDocumentsEquivalence@uipath.testing.activities/24.10.3",
       "fullName": "UiPath.Testing.Activities.VerifyDocumentsEquivalence",
       "displayName": "Verify Documents Equivalence",
       "description": "Compares two documents to determine their equivalence while allowing for specific sections to be excluded based on predefined rules. ",
@@ -786,7 +793,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Testing.Activities;assembly=uipath.testing.activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -837,7 +844,11 @@
           "isObsolete": false,
           "obsoleteMessage": null,
           "delegateArgumentName": null,
-          "enumValues": [],
+          "enumValues": [
+            "Line",
+            "Word",
+            "Character"
+          ],
           "typeMembers": []
         },
         {
@@ -996,7 +1007,7 @@
       ]
     },
     {
-      "id": "UiPath.Testing.Activities.VerifyExpression@UiPath.Testing.Activities/24.10.3",
+      "id": "UiPath.Testing.Activities.VerifyExpression@uipath.testing.activities/24.10.3",
       "fullName": "UiPath.Testing.Activities.VerifyExpression",
       "displayName": "Verify Expression",
       "description": "Verifies an expression",
@@ -1006,7 +1017,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Testing.Activities;assembly=uipath.testing.activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -1131,7 +1142,7 @@
       ]
     },
     {
-      "id": "UiPath.Testing.Activities.VerifyExpressionWithOperator@UiPath.Testing.Activities/24.10.3",
+      "id": "UiPath.Testing.Activities.VerifyExpressionWithOperator@uipath.testing.activities/24.10.3",
       "fullName": "UiPath.Testing.Activities.VerifyExpressionWithOperator",
       "displayName": "Verify Expression with Operator",
       "description": "Verifies 2 expressions with an operator",
@@ -1141,7 +1152,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Testing.Activities;assembly=uipath.testing.activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -1192,7 +1203,16 @@
           "isObsolete": false,
           "obsoleteMessage": null,
           "delegateArgumentName": null,
-          "enumValues": [],
+          "enumValues": [
+            "Equality",
+            "Inequality",
+            "GreaterThan",
+            "GreaterThanOrEqual",
+            "LessThan",
+            "LessThanOrEqual",
+            "Contains",
+            "RegexMatch"
+          ],
           "typeMembers": []
         },
         {
@@ -1300,7 +1320,7 @@
       ]
     },
     {
-      "id": "UiPath.Testing.Activities.VerifyRange@UiPath.Testing.Activities/24.10.3",
+      "id": "UiPath.Testing.Activities.VerifyRange@uipath.testing.activities/24.10.3",
       "fullName": "UiPath.Testing.Activities.VerifyRange",
       "displayName": "Verify Range",
       "description": "Verify a specified value against a range.",
@@ -1310,7 +1330,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Testing.Activities;assembly=uipath.testing.activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -1344,7 +1364,10 @@
           "isObsolete": false,
           "obsoleteMessage": null,
           "delegateArgumentName": null,
-          "enumValues": [],
+          "enumValues": [
+            "IsWithin",
+            "IsNotWithin"
+          ],
           "typeMembers": []
         },
         {
@@ -1486,7 +1509,7 @@
       ]
     },
     {
-      "id": "UiPath.Testing.Activities.VerifyTextEquivalence@UiPath.Testing.Activities/24.10.3",
+      "id": "UiPath.Testing.Activities.VerifyTextEquivalence@uipath.testing.activities/24.10.3",
       "fullName": "UiPath.Testing.Activities.VerifyTextEquivalence",
       "displayName": "Verify Text Equivalence ",
       "description": "Compares two texts to determine their equivalence while allowing for specific sections to be excluded based on predefined rules. ",
@@ -1496,7 +1519,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Testing.Activities;assembly=uipath.testing.activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -1564,7 +1587,11 @@
           "isObsolete": false,
           "obsoleteMessage": null,
           "delegateArgumentName": null,
-          "enumValues": [],
+          "enumValues": [
+            "Line",
+            "Word",
+            "Character"
+          ],
           "typeMembers": []
         },
         {
@@ -1672,7 +1699,7 @@
       ]
     },
     {
-      "id": "UiPath.Testing.Activities.TestData.Address@UiPath.Testing.Activities/24.10.3",
+      "id": "UiPath.Testing.Activities.TestData.Address@uipath.testing.activities/24.10.3",
       "fullName": "UiPath.Testing.Activities.TestData.Address",
       "displayName": "Address",
       "description": "Provide random address as dictionary",
@@ -1682,7 +1709,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Testing.Activities.TestData;assembly=uipath.testing.activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -1705,7 +1732,7 @@
       ]
     },
     {
-      "id": "UiPath.Testing.Activities.TestData.GivenName@UiPath.Testing.Activities/24.10.3",
+      "id": "UiPath.Testing.Activities.TestData.GivenName@uipath.testing.activities/24.10.3",
       "fullName": "UiPath.Testing.Activities.TestData.GivenName",
       "displayName": "Given Name",
       "description": "Provide a random first name",
@@ -1715,7 +1742,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Testing.Activities.TestData;assembly=uipath.testing.activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -1738,7 +1765,7 @@
       ]
     },
     {
-      "id": "UiPath.Testing.Activities.TestData.LastName@UiPath.Testing.Activities/24.10.3",
+      "id": "UiPath.Testing.Activities.TestData.LastName@uipath.testing.activities/24.10.3",
       "fullName": "UiPath.Testing.Activities.TestData.LastName",
       "displayName": "Last Name",
       "description": "Provide a random last name",
@@ -1748,7 +1775,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Testing.Activities.TestData;assembly=uipath.testing.activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -1771,7 +1798,7 @@
       ]
     },
     {
-      "id": "UiPath.Testing.Activities.TestData.RandomDate@UiPath.Testing.Activities/24.10.3",
+      "id": "UiPath.Testing.Activities.TestData.RandomDate@uipath.testing.activities/24.10.3",
       "fullName": "UiPath.Testing.Activities.TestData.RandomDate",
       "displayName": "Random Date",
       "description": "Random Date",
@@ -1781,7 +1808,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Testing.Activities.TestData;assembly=uipath.testing.activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -1838,7 +1865,7 @@
       ]
     },
     {
-      "id": "UiPath.Testing.Activities.TestData.RandomNumber@UiPath.Testing.Activities/24.10.3",
+      "id": "UiPath.Testing.Activities.TestData.RandomNumber@uipath.testing.activities/24.10.3",
       "fullName": "UiPath.Testing.Activities.TestData.RandomNumber",
       "displayName": "Random Number",
       "description": "Random Number",
@@ -1848,7 +1875,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Testing.Activities.TestData;assembly=uipath.testing.activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -1922,7 +1949,7 @@
       ]
     },
     {
-      "id": "UiPath.Testing.Activities.TestData.RandomString@UiPath.Testing.Activities/24.10.3",
+      "id": "UiPath.Testing.Activities.TestData.RandomString@uipath.testing.activities/24.10.3",
       "fullName": "UiPath.Testing.Activities.TestData.RandomString",
       "displayName": "Random String",
       "description": "Generate a random string",
@@ -1932,7 +1959,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Testing.Activities.TestData;assembly=uipath.testing.activities",
       "xmlPrefix": null,
       "members": [
         {
@@ -1949,7 +1976,12 @@
           "isObsolete": false,
           "obsoleteMessage": null,
           "delegateArgumentName": null,
-          "enumValues": [],
+          "enumValues": [
+            "LowerCase",
+            "UpperCase",
+            "CamelCase",
+            "Mixed"
+          ],
           "typeMembers": []
         },
         {
@@ -1989,7 +2021,7 @@
       ]
     },
     {
-      "id": "UiPath.Testing.Activities.TestData.RandomValue@UiPath.Testing.Activities/24.10.3",
+      "id": "UiPath.Testing.Activities.TestData.RandomValue@uipath.testing.activities/24.10.3",
       "fullName": "UiPath.Testing.Activities.TestData.RandomValue",
       "displayName": "Random Value",
       "description": "Picks a random line in range of 0 - 2 billions from a 1-column list provided by the customer as .txt or .csv file",
@@ -1999,7 +2031,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Testing.Activities.TestData;assembly=uipath.testing.activities",
       "xmlPrefix": null,
       "members": [
         {

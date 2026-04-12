@@ -15,7 +15,7 @@
     "tags": "UiPathActivities UiPathStudioX",
     "packageTypes": []
   },
-  "generatedAt": "2026-04-11T13:09:15Z",
+  "generatedAt": "2026-04-12T09:06:21Z",
   "activities": [
     {
       "id": "UiPath.Activities.System.GetUsernamePasswordX@UiPath.System.Activities/24.10.7",
@@ -28,7 +28,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": [
         {
@@ -163,7 +163,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.BPO;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": [
         {
@@ -247,7 +247,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.BPO;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": []
     },
@@ -262,7 +262,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.BPO;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": []
     },
@@ -277,7 +277,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.BPO;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": []
     },
@@ -292,7 +292,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.BPO;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": [
         {
@@ -410,7 +410,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.BPO;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": [
         {
@@ -511,7 +511,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.FileOperations;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": [
         {
@@ -629,7 +629,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.Date;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": [
         {
@@ -713,7 +713,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.Date;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": [
         {
@@ -780,7 +780,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.Text;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": [
         {
@@ -830,7 +830,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.Text;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": [
         {
@@ -880,7 +880,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.Text;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": [
         {
@@ -964,7 +964,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.Text;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": [
         {
@@ -1116,7 +1116,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.Text;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": [
         {
@@ -1200,7 +1200,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.Text;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": [
         {
@@ -1269,7 +1269,7 @@
       ],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.Collections;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": []
     },
@@ -1286,7 +1286,7 @@
       ],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.Collections;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": []
     },
@@ -1303,7 +1303,7 @@
       ],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.Collections;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": [
         {
@@ -1389,7 +1389,7 @@
       ],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.Collections;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": []
     },
@@ -1406,7 +1406,7 @@
       ],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.Collections;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": [
         {
@@ -1458,7 +1458,7 @@
       ],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.Collections;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": [
         {
@@ -1544,7 +1544,7 @@
       ],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Activities.System.Arrays;assembly=UiPath.System.Activities.Runtime.Windows",
       "xmlPrefix": null,
       "members": [
         {

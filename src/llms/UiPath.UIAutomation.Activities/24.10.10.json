@@ -15,7 +15,7 @@
     "tags": "UiPathActivities",
     "packageTypes": []
   },
-  "generatedAt": "2026-04-11T13:09:15Z",
+  "generatedAt": "2026-04-12T09:06:21Z",
   "activities": [
     {
       "id": "UiPath.CV.Activities.CvCheckWithDescriptor@UiPath.UIAutomation.Activities/24.10.10",
@@ -28,7 +28,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.CV.Activities;assembly=UiPath.UIAutomation.Activities.Runtime",
       "xmlPrefix": null,
       "members": [
         {
@@ -231,7 +231,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.CV.Activities;assembly=UiPath.UIAutomation.Activities.Runtime",
       "xmlPrefix": null,
       "members": [
         {
@@ -485,7 +485,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.CV.Activities;assembly=UiPath.UIAutomation.Activities.Runtime",
       "xmlPrefix": null,
       "members": [
         {
@@ -688,7 +688,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.CV.Activities;assembly=UiPath.UIAutomation.Activities.Runtime",
       "xmlPrefix": null,
       "members": [
         {
@@ -959,7 +959,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.CV.Activities;assembly=UiPath.UIAutomation.Activities.Runtime",
       "xmlPrefix": null,
       "members": [
         {
@@ -1230,7 +1230,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.CV.Activities;assembly=UiPath.UIAutomation.Activities.Runtime",
       "xmlPrefix": null,
       "members": [
         {
@@ -1450,7 +1450,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.CV.Activities;assembly=UiPath.UIAutomation.Activities.Runtime",
       "xmlPrefix": null,
       "members": [
         {
@@ -1670,7 +1670,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.CV.Activities;assembly=UiPath.UIAutomation.Activities.Runtime",
       "xmlPrefix": null,
       "members": [
         {
@@ -1856,7 +1856,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.CV.Activities;assembly=UiPath.UIAutomation.Activities.Runtime",
       "xmlPrefix": null,
       "members": [
         {
@@ -2110,7 +2110,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.CV.Activities;assembly=UiPath.UIAutomation.Activities.Runtime",
       "xmlPrefix": null,
       "members": [
         {
@@ -5529,8 +5529,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities",
+      "xmlPrefix": "ui",
       "members": [
         {
           "name": "Transaction",
@@ -5596,8 +5596,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities",
+      "xmlPrefix": "ui",
       "members": [
         {
           "name": "KeyModifiers",
@@ -5748,8 +5748,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities",
+      "xmlPrefix": "ui",
       "members": [
         {
           "name": "Item",
@@ -5866,8 +5866,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities",
+      "xmlPrefix": "ui",
       "members": [
         {
           "name": "UiElement",
@@ -6018,8 +6018,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities",
+      "xmlPrefix": "ui",
       "members": [
         {
           "name": "Path",
@@ -6085,8 +6085,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities",
+      "xmlPrefix": "ui",
       "members": [
         {
           "name": "Item",
@@ -6203,8 +6203,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities",
+      "xmlPrefix": "ui",
       "members": [
         {
           "name": "Username",
@@ -6406,8 +6406,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities",
+      "xmlPrefix": "ui",
       "members": [
         {
           "name": "SAPLogonPath",
@@ -6524,8 +6524,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities",
+      "xmlPrefix": "ui",
       "members": [
         {
           "name": "MessageType",
@@ -6659,8 +6659,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities",
+      "xmlPrefix": "ui",
       "members": [
         {
           "name": "SelectType",
@@ -6813,7 +6813,7 @@
       ],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Semantic.Activities;assembly=UiPath.UIAutomation.Activities.Runtime",
       "xmlPrefix": null,
       "members": []
     },
@@ -6828,7 +6828,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Semantic.Activities;assembly=UiPath.UIAutomation.Activities.Runtime",
       "xmlPrefix": null,
       "members": [
         {
@@ -6980,7 +6980,7 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
+      "xmlNamespace": "clr-namespace:UiPath.Semantic.Activities;assembly=UiPath.UIAutomation.Activities.Runtime",
       "xmlPrefix": null,
       "members": [
         {
@@ -7132,8 +7132,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "OCREngine",
@@ -7420,8 +7420,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "Action",
@@ -7589,8 +7589,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "Result",
@@ -7707,8 +7707,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "Exists",
@@ -7893,8 +7893,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "KeyModifiers",
@@ -8164,8 +8164,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "PopupException",
@@ -8316,8 +8316,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "KeyModifiers",
@@ -8521,8 +8521,8 @@
       ],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "InputDataTable",
@@ -8792,8 +8792,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "Body",
@@ -8997,8 +8997,8 @@
       ],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "Result",
@@ -9166,8 +9166,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "Browser",
@@ -9318,8 +9318,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "ScrapingMethod",
@@ -9521,8 +9521,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "CurrentUrl",
@@ -9622,8 +9622,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "Url",
@@ -9723,8 +9723,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "HighlightTime",
@@ -9892,8 +9892,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "HoverTime",
@@ -10095,8 +10095,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "InputParameter",
@@ -10298,8 +10298,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "ActivateBefore",
@@ -10569,8 +10569,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "Direction",
@@ -10806,8 +10806,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "Action",
@@ -10907,8 +10907,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "Item",
@@ -11076,8 +11076,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "Browser",
@@ -11177,8 +11177,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "BrowserType",
@@ -11278,8 +11278,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "Text",
@@ -11464,8 +11464,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "DelayBeforeScreenshot",
@@ -11684,8 +11684,8 @@
       "genericParameterNames": [],
       "isObsolete": false,
       "obsoleteMessage": null,
-      "xmlNamespace": null,
-      "xmlPrefix": null,
+      "xmlNamespace": "http://schemas.uipath.com/workflow/activities/uix",
+      "xmlPrefix": "uix",
       "members": [
         {
           "name": "Text",
